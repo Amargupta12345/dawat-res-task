@@ -18,7 +18,7 @@ const ImageGallery = () => {
   return (
   
       <div className=" con-10">
-        <div className="mt-5 text-center main-heading">
+        <div className=" text-center main-heading">
           <h1>Todays Menu's</h1>
           <img src={img1} alt="load" />
         </div>

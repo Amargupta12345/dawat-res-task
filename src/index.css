@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body {
   margin: 0;
 
-  font-family: merienda;
+  font-family: sans-serif;
 
   overflow-x: hidden;
 }

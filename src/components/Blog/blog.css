@@ -9,6 +9,10 @@
   background-blend-mode: darken;
 }
 
+.slider-title{
+  font-family: Dancing Script;
+}
+
 .con-6:after {
   background: linear-gradient(-45deg, #ffffff 16px, transparent 0),
     linear-gradient(45deg, #ffffff 16px, transparent 0);

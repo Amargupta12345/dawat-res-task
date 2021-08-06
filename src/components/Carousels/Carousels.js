@@ -34,7 +34,7 @@ const Carousels = () => {
           <div className="carousel-item">
             <img alt="Second slide" className="d-block w-100" src={img2} />
             <div className="carousel-caption d-none d-md-block">
-              <h5 className="animated slideInDown">web design</h5>
+              <h5 className="animated slideInDown">Our's Memories</h5>
               <h4 className="animated bounceInLeft">see what's new today</h4>
               <p className="animated zoomIn">
                 <a href="#">TODAY MENU'S</a>
@@ -44,7 +44,7 @@ const Carousels = () => {
           <div className="carousel-item">
             <img alt="Third slide" className="d-block w-100" src={img3} />
             <div className="carousel-caption d-none d-md-block">
-              <h5 className="animated zoomIn">Digital Marketing</h5>
+              <h5 className="animated zoomIn">Our's Memories</h5>
               <h4 className="animated bounceInLeft">see what's new today</h4>
               <p className="animated zoomIn">
                 <a href="#">TODAY MENU'S</a>
