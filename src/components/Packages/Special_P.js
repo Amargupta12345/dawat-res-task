@@ -24,11 +24,10 @@ const Special_P = () => {
           </div>
           <div className="con-right animated slideInUp">
             <h3 className="animated slideInUp">
-              Lorem ipsum dolor sit amet consectetur, a
+              40% off for 9th -12th pizzza -wed Thu , friday only
             </h3>
             <p className="animated slideInUp">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-              in?
+              Pizza of 1200 Buying with that free Coca cola worth 1255Rs
             </p>
             <button className="animated slideInUp">Order Know</button>
           </div>
@@ -38,11 +37,8 @@ const Special_P = () => {
             <img className="animated slideInDown" src={img2} alt="" />
           </div>
           <div className="con-right animated slideInUp">
-            <h3>Lorem ipsum dolor sit amet consectetur, a</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-              in?
-            </p>
+            <h3>40% off for 9th -12th pizzza -wed Thu , friday only</h3>
+            <p>Pizza of 1200 Buying with that free Coca cola worth 1255Rs</p>
             <button className="btn-3">Order Know</button>
           </div>
         </div>
@@ -51,11 +47,8 @@ const Special_P = () => {
             <img className="animated slideInDown" src={img3} alt="" />
           </div>
           <div className="con-right animated slideInUp">
-            <h3>Lorem ipsum dolor sit amet consectetur, a</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-              in?
-            </p>
+            <h3>40% off for 9th -12th pizzza -wed Thu , friday only</h3>
+            <p>Pizza of 1200 Buying with that free Coca cola worth 1255Rs</p>
             <button>Order Know</button>
           </div>
         </div>
@@ -64,11 +57,8 @@ const Special_P = () => {
             <img className="animated slideInDown" src={img1} alt="" />
           </div>
           <div className="con-right animated slideInUp">
-            <h3>Lorem ipsum dolor sit amet consectetur, a</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-              in?
-            </p>
+            <h3>40% off for 9th -12th pizzza -wed Thu , friday only</h3>
+            <p>Pizza of 1200 Buying with that free Coca cola worth 1255Rs</p>
             <button>Order Know</button>
           </div>
         </div>
@@ -77,11 +67,8 @@ const Special_P = () => {
             <img className="animated slideInDown" src={img3} alt="" />
           </div>
           <div className="con-right animated slideInUp">
-            <h3>Lorem ipsum dolor sit amet consectetur, a</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-              in?
-            </p>
+            <h3>40% off for 9th -12th pizzza -wed Thu , friday only</h3>
+            <p>Pizza of 1200 Buying with that free Coca cola worth 1255Rs</p>
             <button>Order Know</button>
           </div>
         </div>
@@ -90,11 +77,8 @@ const Special_P = () => {
             <img className="animated slideInDown" src={img2} alt="" />
           </div>
           <div className="con-right animated slideInUp">
-            <h3>Lorem ipsum dolor sit amet consectetur, a</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-              in?
-            </p>
+            <h3>40% off for 9th -12th pizzza -wed Thu , friday only</h3>
+            <p>Pizza of 1200 Buying with that free Coca cola worth 1255Rs</p>
             <button>Order Know</button>
           </div>
         </div>

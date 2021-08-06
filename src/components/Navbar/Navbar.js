@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState, useEffect} from "react";
 import img1 from "../../assets/images/main_logo.png";
 import MailIcon from "@material-ui/icons/Mail";
 import PhoneIcon from "@material-ui/icons/Phone";
@@ -9,9 +9,21 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import SearchIcon from "@material-ui/icons/Search";
 import "./navbar.css";
 
 const Navbar = () => {
+
+const [navg, setNavg] = useState(false);
+const chnageBackground =()=>{
+  if (window.scrollY >= 120) {
+    setNavg(true);
+  } else {
+    setNavg(false);
+  }
+}
+
+window.addEventListener('scroll' , chnageBackground);
   return (
     <>
       <div className="Up-1">
@@ -35,7 +47,13 @@ const Navbar = () => {
         </div>
       </div>
 
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <nav
+        className={
+          navg
+            ? "navbar active-1 navbar-expand-lg navbar-light fixed-top"
+            : "navbar navbar-expand-lg navbar-light fixed-top"
+        }
+      >
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src={img1} alt="load" />
@@ -60,22 +78,42 @@ const Navbar = () => {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  About
+                  About Us
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Portfolio
+                  OFFER
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Services
+                  MENU
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Contact
+                  TEAM
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  BLOG
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  GALLERY
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  CONTACT
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <SearchIcon />
                 </a>
               </li>
             </ul>

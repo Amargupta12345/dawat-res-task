@@ -9,7 +9,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="con-5 mt-5">
+    <div className="con-5">
       <div className="logo">
         <img src={img1} alt="" />
         <br />
