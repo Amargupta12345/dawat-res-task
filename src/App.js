@@ -13,6 +13,7 @@ import Footer from "./components/Footer/Footer";
 import ImageGallery from "./components/Food/ImageGallery";
 import Blogs from "./components/Blog/Blogs";
 
+
 const App = () => {
   const [loading, setLoading] = useState(false);
   const overide = css`
@@ -26,7 +27,7 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 1000);
   }, []);
 
   return (
@@ -40,6 +41,7 @@ const App = () => {
         />
       ) : (
         <>
+         
           <Navbar />
           <Carousels />
           <Story />

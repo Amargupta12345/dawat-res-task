@@ -1,6 +1,6 @@
 .con-1 {
   width: 100%;
-  height: 350px;
+  height: 400px;
   background: url(../../assets/images/story_1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +28,8 @@
 .con-1 h1 {
  font-family: Dancing Script;
   text-align: center;
- padding-bottom: 15px;
+color: tomato;
+ padding-bottom:50px;
   font-size: 60px;
 }
 
@@ -38,19 +39,19 @@
   text-align: center;
   padding-left: 15px;
   font-size: 15px;
-  padding-left: 25px;
-  
+  padding-left:155px;
+
 }
 
 .left-1 span{
   font-size: 60px;
 }
 
-.right-1 {
+.Right-1 {
   float: right;
   width: 50%;
   text-align: center;
-  padding-right: 15px;
+  padding-right: 155px;
   font-size: 15px;
   
 }
@@ -64,3 +65,13 @@
   
   
 }
+	.left-1:first-letter {
+		float: left;
+		font-size: 45px;
+		line-height: 1;
+		font-weight: bold;
+		margin-right: px;
+		color: black;
+		font-family: "Times New Roman", Times, serif;
+	
+	}

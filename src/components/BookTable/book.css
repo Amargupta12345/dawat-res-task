@@ -35,8 +35,9 @@
 .con-3 button {
   color: tomato;
   background-color: white;
-  padding: 15px 45px;
+  padding: 5px 25px;
   font-weight: bold;
+  margin-top: 15px;
   font-size: 20px;
   border: 1px solid tomato;
   cursor: pointer;

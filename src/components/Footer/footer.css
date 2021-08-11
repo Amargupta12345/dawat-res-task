@@ -33,12 +33,14 @@
 
 
 .icon {
+  display: flex;
+  justify-content: center;
+align-items: center;
   color: white;
   font-weight: 300;
 }
-
-.icon .a{
-  padding: 2px 1px;
+ .a{
+  padding: 0px 10px;
 }
 
 

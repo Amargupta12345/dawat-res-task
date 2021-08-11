@@ -6,7 +6,6 @@
   display: flex;
   overflow: hidden;
   position: relative;
-  text-transform: uppercase;
   background-blend-mode: darken;
   align-items: center;
   justify-content: center;
