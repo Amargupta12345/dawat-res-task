@@ -47,7 +47,7 @@ const ImageGallery = () => {
       {/* my main items section  */}
       <div className="menu-items container-fluid">
         <div className="row">
-          <div className="col-11 mx-auto">
+          <div className="col-9 mx-auto">
             <div className="row my-5">
               {items.map((elem) => {
                 const { id, name, image, description, price } = elem;

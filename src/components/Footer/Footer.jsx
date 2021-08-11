@@ -19,9 +19,9 @@ const Footer = () => {
         <br />
         <br />
         <br />
-        <h5>kalyan east chakki nakaa kaaatemanivali kalyan (w) 45245252</h5>
-        <p>suryanaaraya455@gmail.com</p>
-        <p>12552545655-25</p>
+        <h5>20,floor, Queensland Victoria Building,60 California USA</h5>
+        <p>hello@dawat.com</p>
+        <p>+88 000 0000 1111</p>
         <div className="icon">
           <div className="a">
             <MailIcon />
