@@ -72,6 +72,12 @@
     height: 100vh;
 }
 
+
+
+.nav  > .active{
+    border-bottom: 1px solid #ca3d26;
+}
+
 @media only screen and (max-width: 767px) {
     .navbar-nav.ml-auto {
         background: rgba(0, 0, 0, 0.5);
@@ -101,7 +107,7 @@
 }
 
 .carousel-caption h4 {
-    font-size: 80px;
+    font-size: 90px;
     letter-spacing: 3px;
     font-family: Dancing Script;
     font-weight: bold;

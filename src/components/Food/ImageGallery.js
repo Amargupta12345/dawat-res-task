@@ -90,8 +90,8 @@ const ImageGallery = () => {
                         </div>
                         <div class="food-menu-details">
                           <h3>
-                            Cupcake Recipes{" "}
-                            <span class="menu-price">$20.00</span>
+                           {name}
+                            <span class="menu-price">{price}</span>
                           </h3>
                           <p class="menu-speacification">
                             <span>- Juice Fruit</span> <span>- Checken</span>{" "}

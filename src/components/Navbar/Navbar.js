@@ -58,7 +58,7 @@ const Navbar = () => {
                         to="home"
                         spy={true}
                         smooth={true}
-                        duration={1000}
+                        duration={2000}
                         offset={-80}
                       >
                         Home
@@ -72,7 +72,7 @@ const Navbar = () => {
                         to="About"
                         spy={true}
                         smooth={true}
-                        duration={1000}
+                        duration={2000}
                         offset={-80}
                       >
                         About Us
@@ -86,7 +86,7 @@ const Navbar = () => {
                         to="Offer"
                         spy={true}
                         smooth={true}
-                        duration={1000}
+                        duration={2000}
                         offset={-80}
                       >
                         Offer
@@ -100,7 +100,7 @@ const Navbar = () => {
                         to="Menu"
                         spy={true}
                         smooth={true}
-                        duration={1000}
+                        duration={2000}
                         offset={-80}
                       >
                         Menu
@@ -114,7 +114,7 @@ const Navbar = () => {
                         to="Team"
                         spy={true}
                         smooth={true}
-                        duration={1000}
+                        duration={2000}
                         offset={-80}
                       >
                         Team
@@ -128,7 +128,7 @@ const Navbar = () => {
                         to="Blog"
                         spy={true}
                         smooth={true}
-                        duration={1000}
+                        duration={2000}
                         offset={-80}
                       >
                         Blog
@@ -142,7 +142,7 @@ const Navbar = () => {
                         to="Gallery"
                         spy={true}
                         smooth={true}
-                        duration={1000}
+                        duration={2000}
                         offset={-80}
                       >
                         Gallery
@@ -156,7 +156,7 @@ const Navbar = () => {
                         to="Contact"
                         spy={true}
                         smooth={true}
-                        duration={1000}
+                        duration={2000}
                         offset={-80}
                       >
                         Contact
@@ -191,7 +191,7 @@ const Navbar = () => {
           <div class="carousel-inner">
             <div class="carousel-item active">
             
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption  d-md-block">
                 <h4 class="animated bounceInRight">Welcome To DAWAT</h4>
                 <p class="animated bounceInLeft">
                   CAFE & RESTAURANT RESERVATION 
@@ -202,7 +202,6 @@ const Navbar = () => {
               </div>
             </div>
             <div class="carousel-item">
-       
               <div class="carousel-caption d-none d-md-block">
                 <h4 class="animated slideInDown"> Our Menus </h4>
                 <p class="animated fadeInUp">
