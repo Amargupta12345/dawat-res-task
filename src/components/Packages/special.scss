@@ -26,14 +26,14 @@
 
 .btn-3 {
     color: white;
-    background-color: tomato;
+    background-color: #ca3d26;
     cursor: pointer;
-    border: 2px solid gray;
+  
 }
 
 .btn-3:hover {
     background-color: #fff;
-    color: tomato;
+    color: #ca3d26;
 }
 
 .slider-title-1 {
@@ -42,7 +42,7 @@
     text-align: center;
     margin-top: 5vw;
     font-family: Dancing Script;
-    color: rgb(226, 29, 29)
+    color: #ca3d26;
 }
 
 .card-wrap {
@@ -52,7 +52,7 @@
 }
 
 .con-right:hover {
-    background: rgb(219, 38, 38);
+    background: #ca3d26;
     background-blend-mode: darken;
     color: #fff;
     transition: all ease-in-out 1s;
@@ -69,7 +69,6 @@
 .img-left img {
     height: 100%;
     width: 100%;
-   
 }
 
 .con-right {
@@ -82,5 +81,4 @@
     margin-right: 254px;
     background-color: #fff;
     margin-top: 45px;
-    
 }

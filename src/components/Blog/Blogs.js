@@ -8,21 +8,13 @@ const Blogs = () => {
     
     return (
         <>
-      <div className="con-6  text-center mt-5  carousel">
-        <h1 className=" slider-title ">Latests News</h1>
+      <div className="con-6  text-center mt-5  carousel" id="Blog">
+        <h1 className=" slider-title ">Latest News</h1>
         <img src={img1} alt="load"/>
         <div className="container">
         <Blog />
         </div>
       </div>
-      <div class="light-box">
-    <div class="box-wrapper">
-      <div class="box">
-        <span class="close-btn">&times</span>
-        <img src="" alt="" class="light-img"/>
-      </div>
-    </div>
-  </div>
 </>
     );
 }

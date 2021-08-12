@@ -1,8 +1,5 @@
 .Up-1 {
-  background: rgba(0, 0, 0, 0.1) url(../../assets/images/promo_slide_1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
+  background: transparent;
   display: flex;
   justify-content: space-around;
   align-items: space-around;
@@ -10,37 +7,34 @@
 }
 
 .btn-3 {
-  margin-left: 80px;
   color: white;
-  background-color: tomato;
+  background-color: #ca3d26;
   cursor: pointer;
-  border: 2px solid gray;
+  padding: 10px;
 }
 
 .btn-3:hover {
-  background-color:#fff ;
-  color:tomato;
+  background-color: #fff;
+  color:#ca3d26;
 }
 
 .left-1-1 {
-  display:flex;
-justify-content:center;
-align-items: center;
-font-weight:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .right-1 {
-display:flex;
-justify-content:center;
-align-items: center;
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.a{
-  padding:0 8px;
+.a {
+  padding: 25px 3px;
 }
 
-
-.a:hover{
-color: red;
+.a:hover {
+  color: red;
 }

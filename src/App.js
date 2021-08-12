@@ -12,7 +12,7 @@ import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
 import ImageGallery from "./components/Food/ImageGallery";
 import Blogs from "./components/Blog/Blogs";
-
+import Scroll from "./components/Scroll/Scroll";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -41,9 +41,9 @@ const App = () => {
         />
       ) : (
         <>
-         
+          {/* <Carousels /> */}
+          <Scroll showBelow={250} />
           <Navbar />
-          <Carousels />
           <Story />
           <Special />
           <ImageGallery />

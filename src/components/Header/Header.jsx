@@ -39,12 +39,8 @@ const Header = () => {
         <div className="a">
           <TelegramIcon />
         </div>
-        <div className="a">
-          <LinkedInIcon />
-        </div>
-        <div className="a">
-          <GitHubIcon />
-        </div>
+     
+     
 
         <button className="btn-3" type="submit">
           BOOK TABLE

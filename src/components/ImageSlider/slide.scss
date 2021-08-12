@@ -241,7 +241,13 @@
 // }
 .con-9 {
     width: 100%;
-    height: 600px;
+    height:700px;
+}
+
+.disk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider-title {
@@ -249,6 +255,7 @@
     color: tomato;
     font-family: Dancing Script;
     text-align: center;
+    margin-top: 65px;
 }
 
 .img__description {
@@ -267,9 +274,9 @@
     flex-direction: column;
     align-items: right;
     justify-content: right;
-    /* transition effect. not necessary */
+   
     transition: opacity 0.2s, visibility 0.2s;
-    /* transition effect. not necessary */
+   
 }
 
 .img__wrap:hover .img__description {
@@ -305,8 +312,8 @@
 }
 
 .chef-section {
-    .redimg {
-        width: 20%;
+    .disk {
+        width: 30%;
     }
     div {
         // flex-basis: 32%;
@@ -316,6 +323,7 @@
     }
     figure {
         margin: 0.3em;
+        margin-top: 155px;
         position: relative;
         figcaption {
             margin-top: 1em;

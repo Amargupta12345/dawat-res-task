@@ -13,13 +13,16 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="con-5">
+    <div className="con-5" id ="Contact">
       <div className="logo">
         <img src={img1} alt="" />
         <br />
         <br />
         <br />
-        <h5>20,floor, Queensland Victoria Building,60 California USA</h5>
+        <h5>
+          20, floor, Queenslad Victoria Building. 60 california street
+          california USA
+        </h5>
         <p>hello@dawat.com</p>
         <p>+88 000 0000 1111</p>
         <div className="icon">
@@ -49,8 +52,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="bottom"></div>
       <div className="left-con">
-        <p>Terms & Conditions Privavy Contact Site Map</p>
+        <p>Terms  &  Conditions  Privacy  Contact Site Map</p>
       </div>
       <div className="right-con">
         <p>&copy; 2021 Dawat Resturant || All Rights Resereved</p>

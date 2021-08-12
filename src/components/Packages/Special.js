@@ -4,7 +4,7 @@ import img1 from "../../assets/images/red.png";
 import "./special.scss";
 const Special = () => {
   return (
-    <div className="con-2  carousel">
+    <div className="con-2  carousel" id="Offer">
       <h1 className="slider-title-1 animated fadeInLeft ">Special Package</h1>
       <div className="text-center">
         <img  src={img1} alt="load" />
