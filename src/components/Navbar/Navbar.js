@@ -21,7 +21,7 @@ const Navbar = () => {
   window.addEventListener("scroll", chnageBackground);
   return (
     <>
-      <header  id="home">
+      <header id="home">
         <div className="fixed-top">
           <Header />
           <hr />
@@ -29,9 +29,10 @@ const Navbar = () => {
           <nav
             className={
               navg
-                ? "navbar navbar-expand-lg navbar-light active-1 fixed-top      "
+                ? "navbar navbar-expand-lg navbar-light active-1 fixed-top"
                 : "navbar navbar-expand-lg navbar-light "
             }
+            style={{ color: "black" }}
           >
             <div class="container">
               <hr />
@@ -190,11 +191,10 @@ const Navbar = () => {
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-            
               <div class="carousel-caption  d-md-block">
                 <h4 class="animated bounceInRight">Welcome To DAWAT</h4>
                 <p class="animated bounceInLeft">
-                  CAFE & RESTAURANT RESERVATION 
+                  CAFE & RESTAURANT RESERVATION
                 </p>
                 <p class="animated bounceInRight">
                   <a href="#">Book Table</a>
@@ -204,21 +204,16 @@ const Navbar = () => {
             <div class="carousel-item">
               <div class="carousel-caption d-none d-md-block">
                 <h4 class="animated slideInDown"> Our Menus </h4>
-                <p class="animated fadeInUp">
-                  SEE WHAT'S NEW TODAY TODAYS 
-                </p>
+                <p class="animated fadeInUp">SEE WHAT'S NEW TODAY TODAYS</p>
                 <p class="animated zoomIn">
                   <a href="#">Reservation Now</a>
                 </p>
               </div>
             </div>
             <div class="carousel-item">
-             
               <div class="carousel-caption d-none d-md-block">
                 <h4 class="animated zoomIn"> Get Ready </h4>
-                <p class="animated fadeInLeft">
-                  TO JOIN WITH US BOOK A TABLE 
-                </p>
+                <p class="animated fadeInLeft">TO JOIN WITH US BOOK A TABLE</p>
                 <p class="animated zoomIn">
                   <a href="#">More Info</a>
                 </p>
